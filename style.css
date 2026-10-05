@@ -1,25 +1,25 @@
 /* =========================================================
    DHVANI MODI - PORTFOLIO WEBSITE
-   Simple Professional CSS
+   PROFESSIONAL LIGHT BLUE / GREY THEME
 ========================================================= */
 
 
 /* ================= BASIC SETTINGS ================= */
 
 :root {
-    --pink: #e8a0b8;
-    --dark-pink: #d982a0;
-    --light-pink: #fff3f7;
+    --primary: #6b8ead;
+    --primary-dark: #557895;
+    --light-blue: #eef4f8;
 
     --dark: #202124;
     --text: #555;
     --light-text: #777;
 
     --white: #ffffff;
-    --background: #fdf8fa;
-    --border: #eadfe3;
+    --background: #f7f9fc;
+    --border: #e2e7ec;
 
-    --shadow: 0 8px 25px rgba(100, 60, 75, 0.08);
+    --shadow: 0 8px 25px rgba(40, 60, 80, 0.08);
 }
 
 * {
@@ -70,7 +70,7 @@ img {
     display: inline-block;
     width: 9px;
     height: 9px;
-    background: var(--pink);
+    background: var(--primary);
     border-radius: 50%;
     margin-right: 7px;
 }
@@ -110,7 +110,7 @@ img {
     background:
         radial-gradient(
             circle at 85% 20%,
-            rgba(232, 160, 184, 0.15),
+            rgba(107, 142, 173, 0.12),
             transparent 30%
         ),
         #ffffff;
@@ -121,8 +121,8 @@ img {
     align-items: center;
     gap: 8px;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     padding: 7px 14px;
     border-radius: 20px;
@@ -150,7 +150,7 @@ img {
 }
 
 .hero-section h1 span {
-    color: var(--dark-pink);
+    color: var(--primary-dark);
 }
 
 .hero-section h2 {
@@ -190,9 +190,9 @@ img {
 }
 
 .btn-primary-custom {
-    background: var(--pink);
+    background: var(--primary);
     color: white;
-    border: 1px solid var(--pink);
+    border: 1px solid var(--primary);
 }
 
 .btn-primary-custom:hover {
@@ -260,8 +260,8 @@ img {
     align-items: center;
     justify-content: center;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     border-radius: 15px;
 
@@ -301,7 +301,7 @@ img {
 }
 
 .hero-card-info i {
-    color: var(--dark-pink);
+    color: var(--primary-dark);
 }
 
 
@@ -324,7 +324,7 @@ img {
 }
 
 .section-label {
-    color: var(--dark-pink);
+    color: var(--primary-dark);
     font-size: 0.85rem;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -339,7 +339,7 @@ img {
 }
 
 .section-heading h2 span {
-    color: var(--dark-pink);
+    color: var(--primary-dark);
 }
 
 .section-heading p {
@@ -386,8 +386,8 @@ img {
     align-items: center;
     justify-content: center;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     border-radius: 10px;
 }
@@ -428,8 +428,8 @@ img {
     align-items: center;
     justify-content: center;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     border-radius: 12px;
 
@@ -459,8 +459,8 @@ img {
 .skill-tags span {
     padding: 5px 9px;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     border-radius: 6px;
 
@@ -497,7 +497,7 @@ img {
     width: 100%;
     height: 4px;
 
-    background: var(--pink);
+    background: var(--primary);
 }
 
 .project-link {
@@ -520,8 +520,8 @@ img {
 .project-number {
     font-family: "Times New Roman", Times, serif !important;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     padding: 5px 9px;
     border-radius: 6px;
@@ -543,8 +543,8 @@ img {
     align-items: center;
     justify-content: center;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     border-radius: 14px;
 
@@ -555,7 +555,7 @@ img {
 .project-tech {
     display: inline-block;
 
-    color: var(--dark-pink);
+    color: var(--primary-dark);
 
     font-size: 0.8rem;
     font-weight: bold;
@@ -589,7 +589,7 @@ img {
     border: 1px solid var(--border);
     border-radius: 5px;
 
-    background: #fffafb;
+    background: #fafbfd;
 
     color: var(--text);
 
@@ -612,7 +612,7 @@ img {
 }
 
 .project-footer i {
-    color: var(--dark-pink);
+    color: var(--primary-dark);
 }
 
 
@@ -646,8 +646,8 @@ img {
     align-items: center;
     justify-content: center;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     border-radius: 12px;
 
@@ -663,7 +663,7 @@ img {
 }
 
 .certificate-card p {
-    color: var(--dark-pink);
+    color: var(--primary-dark);
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -690,7 +690,7 @@ img {
 }
 
 .certificate-footer i {
-    color: var(--dark-pink);
+    color: var(--primary-dark);
 }
 
 
@@ -711,7 +711,7 @@ img {
 
     width: 2px;
 
-    background: #efd9e1;
+    background: #dce5ec;
 }
 
 .journey-item {
@@ -730,13 +730,13 @@ img {
     width: 17px;
     height: 17px;
 
-    background: var(--pink);
+    background: var(--primary);
 
     border-radius: 50%;
 
     border: 4px solid white;
 
-    box-shadow: 0 0 0 2px #efd9e1;
+    box-shadow: 0 0 0 2px #dce5ec;
 }
 
 .journey-card {
@@ -763,8 +763,8 @@ img {
     align-items: center;
     justify-content: center;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     border-radius: 10px;
 }
@@ -817,8 +817,8 @@ img {
 
     margin: 0 auto 14px;
 
-    background: var(--light-pink);
-    color: var(--dark-pink);
+    background: var(--light-blue);
+    color: var(--primary-dark);
 
     border-radius: 12px;
 
@@ -842,7 +842,7 @@ img {
 /* ================= FOOTER ================= */
 
 .footer {
-    background: #211b1e;
+    background: #20262b;
     color: #aaa;
 
     padding: 40px 0 20px;
@@ -883,7 +883,7 @@ img {
     align-items: center;
     justify-content: center;
 
-    border: 1px solid #40373a;
+    border: 1px solid #414950;
     border-radius: 8px;
 
     color: #bbb;
@@ -894,7 +894,7 @@ img {
 }
 
 .footer-bottom {
-    border-top: 1px solid #3b3336;
+    border-top: 1px solid #394148;
 
     padding-top: 18px;
 
